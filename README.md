@@ -4,6 +4,8 @@ This repository contains a [Python Notebook](./dnd-answers.ipynb) demonstrating 
 
 The code takes text inputs and outputs answers, consulting the snippets of the SRD that the model finds most relevant.
 
+There is also a demo of using the function calling api to retrieve spell descriptions.
+
 [View the notebook here](./dnd-answers.ipynb)
 
 ## How It Works
@@ -18,7 +20,7 @@ The code takes text inputs and outputs answers, consulting the snippets of the S
 
 - Qdrant for vector database management
 - Sentence Transformers for generating embeddings
-- OpenAI for model and chat capabilities
+- OpenAI for LLM backend
 
 ## Contributions
 
@@ -26,4 +28,6 @@ Pull requests accepted for improvements to the demo.
 
 ## License
 
-The D&D 5e SRD rules text used in this demonstration are owned by Wizards of the Coast.
+This repository is licenced under [MIT](./LICENSE) unless otherwise stated.
+
+The D&D 5e SRD rules text used in this demonstration is dual licensed by Wizards of the Coast under the terms of CC-BY-4.0 or OGL 1.0a.  Full details available at: https://dnd.wizards.com/resources/systems-reference-document
